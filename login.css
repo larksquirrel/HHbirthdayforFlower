@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'fz';
-    src: url('fz.ttf') format('truetype');
+    src: url('fz.TTF') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -26,8 +26,8 @@ body::before {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    filter: blur(3px); /* Ìí¼ÓÄ£ºıĞ§¹û */
-    z-index: -1; /* È·±£±³¾°Í¼Æ¬ÔÚÄÚÈİºóÃæ */
+    filter: blur(3px); /* æ·»åŠ æ¨¡ç³Šæ•ˆæœ */
+    z-index: -1; /* ç¡®ä¿èƒŒæ™¯å›¾ç‰‡åœ¨å†…å®¹åé¢ */
 }
 
 .login-container {
@@ -35,7 +35,7 @@ body::before {
     padding: 20px;
     border-radius: 10px;
     position: absolute;
-    top: 45%; /* µ÷ÕûÕâ¸öÖµÀ´¸Ä±äÎ»ÖÃ */
+    top: 45%; /* è°ƒæ•´è¿™ä¸ªå€¼æ¥æ”¹å˜ä½ç½® */
     transform: translateY(-20%);
     z-index: 1;
 }
