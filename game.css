@@ -49,7 +49,7 @@ body {
 .controls {
     position: absolute;
     top: 50px;
-    left: 1000px;
+    right: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
